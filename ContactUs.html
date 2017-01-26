@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>SPorts.com</title>
+		<!--
+         Sports.com Contact Us
+		 Filename: ContactUs.html
+		 
+		 Author:   Lim Jing Jie
+		-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="Sports.css">
+		<link rel="icon" href="Images/Favicon.png" type="image/png" sizes="16x16">
+	</head>
+	
+	<body>
+		
+		<div class="menu">
+			<a name="top"></a>
+			
+			<!--Navigation menu-->
+			<nav>
+				<div class="nav-bar">	
+					<ul>
+						<figure id="logo"><img src="Images/Logo.png"></figure>
+						<li><a href="Index.html">Home</a></li>
+						<li class="dropdown">
+							<a href="Products.html">Products</a>
+							<div class="dropdown-content">
+								<a href="Rackets.html">Rackets</a>
+								<a href="Grips.html">Grips</a>
+								<a href="Shoes.html">Shoes</a>
+							</div>
+						</li>
+						<li><a href="AboutUs.html">About Us</a></li>
+						<li id="active-main"><a href="ContactUs.html">Contact Us</a></li>
+						<li><a href="TermsAndConditions.html">Terms And Conditions</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		
+		<div class="container">
+			<div id="ContactUs">
+				<article>
+					<h2>Contact Us</h2>
+					<!-- How To Contact -->
+					<p>For general questions and feedbacks, please contact us by filling our online contact form
+					or direct your email to sports@gmail.com. We will reply you as soon as possible.</p>
+				</article>
+			</div>
+		  
+			<!-- Contact Form -->
+			<form>
+				<fieldset class="information">
+					<label for="nameinput">
+						Name:
+						<input type="text" name="name" id="nameinput" required>
+					</label>
+					<label for="emailinput">
+						Email:
+						<input type="email" name="email" id="emailinput" required>
+					</label>
+					<label for="phoneinput">
+						Phone:
+						<input type="tel" name="phone" id="phoneinput" required>
+					</label>
+					<label for="message">
+						Message:
+						<textarea name="message" id="message" rows="5" cols="44" required></textarea>
+					</label>
+				</fieldset>
+			
+				<fieldset class="submitbutton">
+					<input type="submit" id="submit" value="Submit">
+				</fieldset>
+			</form>
+		</div>
+	  
+	  <div>
+		<footer id="footer">
+			<p>COPYRIGHT &copy 2016 SPorts.com ALL RIGHTS RESERVED.</p>
+		</footer>
+	  </div>
+		
+	</body>
+</html>
